@@ -4,7 +4,7 @@
   "description": "Nexter webpage",
   "main": "index.js",
   "scripts": {
-    "live": "live-server --browser=Chrome",
+    "live": "live-server --browser=firefox",
     "comp": "node-sass sass/main.scss css/style.css -w",
     "start": "npm-run-all --parallel live comp",
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
